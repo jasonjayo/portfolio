@@ -128,9 +128,9 @@ import PortfolioItem from "../components/PortfolioItem.vue";
             <p>
               I've had a long interest in aviation and began researching flight
               tracking a few years ago. Since then, I have put together various
-              setups, each better than the previous. I began with a simple
+              setups, each building on the previous. I began with a simple
               RTL-SDR USB and a small indoor antenna. I used software such as
-              Virtual Radar Server which display the tracked aircraft on a map.
+              Virtual Radar Server whichs display the tracked aircraft on a map.
               I build a web app that linked a database of my aviation photos to
               the tracked aircraft.
             </p>
@@ -145,7 +145,6 @@ import PortfolioItem from "../components/PortfolioItem.vue";
               together a new setup, consisting of the following hardware
               components:
             </p>
-
             <ul>
               <li>Raspberry Pi Model B</li>
               <li>Flirc case to keep temperatures lower</li>
@@ -302,7 +301,7 @@ export default {
     background-position: center;
   }
   &__tint {
-    background: url("grid.png");
+    background: url("/grid.png");
     position: absolute;
     top: 0;
     left: 0;

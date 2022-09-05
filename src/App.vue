@@ -2,6 +2,11 @@
   <RouterView />
   <footer>
     <div>&copy; Jason Gill {{ new Date().getFullYear() }}</div>
+    <div>
+      <a target="_blank" href="https://github.com/jasonjayo/portfolio"
+        >Website source code</a
+      >
+    </div>
   </footer>
 </template>
 
@@ -14,7 +19,11 @@ footer {
   text-align: center;
   padding: 3em;
   display: flex;
+  flex-wrap: wrap;
   gap: 3em;
   justify-content: center;
+  a {
+    color: inherit;
+  }
 }
 </style>
