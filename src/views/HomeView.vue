@@ -130,8 +130,8 @@ import PortfolioItem from "../components/PortfolioItem.vue";
               tracking a few years ago. Since then, I have put together various
               setups, each building on the previous. I began with a simple
               RTL-SDR USB and a small indoor antenna. I used software such as
-              Virtual Radar Server whichs display the tracked aircraft on a map.
-              I build a web app that linked a database of my aviation photos to
+              Virtual Radar Server which displays the tracked aircraft on a map.
+              I built a web app that linked a database of my aviation photos to
               the tracked aircraft.
             </p>
           </div>
